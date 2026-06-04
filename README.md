@@ -1,6 +1,13 @@
 Set-Content -Path "README.md" -Value '# ⚡ Postman Lite
 
 A lightweight, blazing-fast API testing and documentation tool built for modern developers. No bloat, no signup — just open and start testing APIs.
+# ⚡ Postman Lite
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Netlify-00C7B7?style=for-the-badge&logo=netlify)](https://postman-lite-app.netlify.app)
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github)](https://github.com/tannukri01/postman-lite)
+
+A lightweight, blazing-fast API testing and documentation tool...
+
 
 ![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript)
