@@ -51,10 +51,11 @@
 
 @layer base {
   * {
-    @apply border-border;
+    border-color: hsl(var(--border));
   }
   body {
-    @apply bg-background text-foreground;
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
@@ -78,7 +79,7 @@
   background: hsl(var(--muted-foreground) / 0.5);
 }
 
-/* Custom animations */
+/* Animations */
 @keyframes slideIn {
   from {
     opacity: 0;
@@ -92,16 +93,4 @@
 
 .animate-slide-in {
   animation: slideIn 0.3s ease-out;
-}
-
-/* Glass effect for panels */
-.glass-panel {
-  background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.dark .glass-panel {
-  background: rgba(30, 41, 59, 0.7);
-  border: 1px solid rgba(255, 255, 255, 0.05);
 }
